@@ -48,7 +48,7 @@ pip install flask
 Para ejecutar la aplicación:
 
 ```bash
-flask --app app --debug run --host=0.0.0.0
+flask --app main --debug run --host=0.0.0.0
 ```
 
 ## 5. Instalar las dependencias
