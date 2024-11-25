@@ -67,6 +67,7 @@ pip install psycopg2
 pip install flask-wtf
 pip install flask-ckeditor
 pip install python-dotenv
+pip install gunicorn
 ```
 
 Este archivo `README.md` está estructurado para seguir las convenciones estándar y proporcionar una guía clara sobre cómo configurar y ejecutar el proyecto.

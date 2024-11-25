@@ -3,4 +3,5 @@ psycopg2
 flask-wtf
 flask-ckeditor
 python-dotenv
+gunicorn
 
