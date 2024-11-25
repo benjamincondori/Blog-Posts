@@ -20,7 +20,10 @@ def create_app():
 
     # Configuracion de idioma
     import locale
-    locale.setlocale(locale.LC_ALL, 'es_ES')
+    try:
+        locale.setlocale(locale.LC_ALL, 'es_ES.UTF-8')
+    except locale.Error:
+        locale.setlocale(locale.LC_ALL, 'C.UTF-8')  # Usa un locale genérico si el específico falla
 
     # Registrar vistas
     from blog import home
